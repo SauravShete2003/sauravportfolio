@@ -10,7 +10,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="bg-white border-gray-200 dark:bg-gray-800">
+    <nav className="bg-white border-gray-200 rounded" style={{backgroundColor: '#ADD8E6'}} >
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
         <span className="self-center text-3xl font-semibold whitespace-nowrap mr-auto text-black italic">
           Saurav Shete

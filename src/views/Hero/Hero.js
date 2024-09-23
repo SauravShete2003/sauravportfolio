@@ -23,10 +23,10 @@ function Hero() {
       </div>
 
       <div className="auth-btn-container">
-        <a href={resume} download className="auth-btn" style={{backgroundColor : "green"}}>
+        <a href={resume} download className="auth-btn" >
           Download Resume
         </a>
-        <a href="#projects-section" className="auth-btn" style={{backgroundColor : "blue"}}>
+        <a href="#projects-section" className="auth-btn" >
           View Projects
         </a>
       </div>

@@ -2,63 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
- :root {
-  --background-color: #ffffff;
-  --text-color: #000000;
-  --primary-color: #007bff;
-}
-
-/*
-[data-theme="dark"] {
-  --background-color: #121212;
-  --text-color: #ffffff;
-  --primary-color: #bb86fc;
-} */
-
 body {
-  background-color: var(--background-color);
-  color: var(--text-color);
+  background-color: #E0F7FA;
   font-family: 'Roboto', sans-serif;
   transition: background-color 0.3s ease, color 0.3s ease;
-  background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+
   padding: 20px;
   margin: 0;
 }
 
-.geometric-background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: url('https://www.transparenttextures.com/patterns/geometry2.png');
-  opacity: 0.1;
-  z-index: -1;
-}
-
 h1, h2 {
-  color: var(--primary-color);
   text-align: center;
   margin-top: 20px;
 }
 
-.container {
-  text-align: center;
-  margin: 50px auto;
-  max-width: 900px;
-}
 
-button {
-  background-color: var(--primary-color);
-  color: #fff;
-  padding: 8px 18px;
+.button {
+  background-color: #008CBA; /* Blue */
+  color: white;
+  padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  cursor: pointer;
-  font-size: 18px;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition: background-color 0.3s; /* Smooth transition */
 }
 
-button:hover {
-  opacity: 0.8;
+.button:hover {
+  background-color: #005f73; /* Darker blue on hover */
 }
