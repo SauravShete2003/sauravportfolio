@@ -6,6 +6,7 @@ import Home from './views/Home/Home'
 import Navbar from './components/Navbar/Navbar';
 import AboutMe from './views/AboutMe/AboutMe';
 import SkillSection from './views/SkillSection/SkillSection';
+import Projects from './views/Projects/Projects';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
   {
     path : '/skill',
     element : <SkillSection/>
+  },
+  {
+    path : '/projects',
+    element : <Projects/>
   }
 ])
 
