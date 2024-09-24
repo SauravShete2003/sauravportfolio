@@ -1,4 +1,3 @@
-import "./AboutMe.css";
 
 function AboutMe() {
   return (
@@ -7,7 +6,7 @@ function AboutMe() {
         <b>About Me</b>
       </h1>
       <p className="auth-description">
-        Hi, I'm Saurav Shete, a software engineer passionate about building
+        Hi, I'm Saurav Shete, a Full Stack Developer passionate about building
         interactive and visually appealing web applications. With a strong
         foundation in the MERN Stack, I specialize in crafting seamless user
         experiences and writing clean, efficient code. I love solving complex

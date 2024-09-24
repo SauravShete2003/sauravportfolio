@@ -9,18 +9,29 @@ function ProjectCard({
   date,
   image,
 }) {
+
+  console.log("this is the image.....", image)
   return (
     <div className="project-card-container">
       <h2 className="project-card-title">{title}</h2>
-      <img src={image} alt="projects" className="project-card-image" />
+      <img src={image} alt="Projectsimage" className="project-card-image" />
       <p className="project-card-descritpion">{description}</p>
       <span className="project-card-technologies">{technologies}</span>
-      <a href={liveDemo} className="project-card-live-demo" target="_blank" rel="noopener noreferrer">
-        <b>Live Demo :</b>
-        {liveDemo}
+      <a
+        href={liveDemo}
+        className="project-card-live-demo"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Live Demo : {liveDemo}
       </a>
-      <a href={github} className="project-card-github-link" target="_blank" rel="noopener noreferrer">
-        <b>GitHub</b>: {github}
+      <a
+        href={liveDemo}
+        className="project-card-github-link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        GitHub Link : {github}
       </a>
       <span className="project-card-date">{date}</span>
     </div>

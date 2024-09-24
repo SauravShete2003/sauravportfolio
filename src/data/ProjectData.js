@@ -1,7 +1,13 @@
+import tinyUrlImage from "./../assests/images/tinyurl.png";
+import dishDelight from "./../assests/images/dish-delight.png";
+import budgetBuddy from "./../assests/images/budget-buddy.png";
+import scoreKeeper from "./../assests/images/score-keeper.png"
+import quickTick from './../assests/images/quick-tick.png'
+
 const projectData = [
   {
     title: "Dish Delight",
-    image: "https://img.freepik.com/premium-photo/esh-dhokla-arranged-with-variety-fresh-s_1179130-545012.jpg",
+    image: dishDelight,
     description:
       "A web application for a recipes makes simple and delesious recipes",
     technologies: ["HTML", "CSS", "JavaScript", "React.js"],
@@ -10,15 +16,75 @@ const projectData = [
     date: "June 2024",
   },
   {
-    title: "Weather App",
-    image: "https://img.freepik.com/premium-photo/woman-outside-city-checking-weather-forecast-her-mobile-phone_746318-1197.jpg",
-    description:
-    "A web application that shows the current weather of a city",
-    technologies : ["HTML", "CSS", "JavaScript", "React.js"],
-    liveDemo: "https://weather-app-weather.netlify.app  ",
-    github: "https://github.com/SauravShete2003/weather-app",
+    title: "Budget Buddy",
+    image: budgetBuddy,
+    description: "A web application for budgeting and expense tracking",
+    technologies: [
+      "JavaScript",
+      "React.js",
+      "MongoDB",
+      "Node.js",
+      "Express.js",
+    ],
+    liveDemo: "https://budget-buddy-sooty.vercel.app/",
+    github: "https://github.com/SauravShete2003/BudgetBuddy",
     date: "June 2024",
-  }
+  },
+  {
+    title: "Tiny URL",
+    image: tinyUrlImage,
+    description: "A web application for shortening URLs",
+    technologies: [
+      "JavaScript",
+      "React.js",
+      "MongoDB",
+      "Node.js",
+      "Express.js",
+    ],
+    liveDemo: "https://tinyshorter.netlify.app",
+    github: "https://github.com/SauravShete2003/tinyurl",
+    date: "June 2024",
+  },
+
+  {
+    title: "Score Keeper",
+    image: scoreKeeper,
+    description: "A web application for keeping track of scores",
+    technologies: ["HTML", "CSS", "JavaScript", "React.js"],
+    liveDemo: "score-keeper-beige.vercel.app",
+    github: "https://github.com/SauravShete2003/score-keeper",
+    date: "September 2024",
+  },
+  {
+    title: "Quick Tick",
+    image: quickTick,
+    description: "A web application for creating and managing to-do lists",
+    technologies: [
+      "JavaScript",
+      "React.js",
+      "MongoDB",
+      "Node.js",
+      "Express.js",
+    ],
+    liveDemo: "quick-tick.netlify.app",
+    github: "https://github.com/SauravShete2003/quick-tick",
+    date: "September 2024",
+  },
+  {
+    title: "Tiny URL",
+    image: quickTick,
+    description: "A web application for shortening URLs",
+    technologies: [
+      "JavaScript",
+      "React.js",
+      "MongoDB",
+      "Node.js",
+      "Express.js",
+    ],
+    liveDemo: "https://tinyshorter.netlify.app",
+    github: "https://github.com/SauravShete2003/tinyurl",
+    date: "June 2024",
+  },
 ];
 
 export default projectData;

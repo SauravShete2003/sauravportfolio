@@ -37,33 +37,28 @@ h2{
   background-color: #005f73; /* Darker blue on hover */
 }
 
-/* Root Variables for Easy Customization */
-:root {
-  --primary-color: #007BFF; /* Blue */
-  --secondary-color: #6c757d; /* Gray */
-  --background-color: #ffffff; /* White */
-  --hover-color: #0056b3; /* Darker Blue */
+ :root {
+
+ 
+  --background-color: #ffffff; 
+  --hover-color: #0056b3; 
   --shadow-color: rgba(0, 0, 0, 0.1);
   --text-color: #333333;
   --badge-bg-color: #f0f0f0;
   --badge-text-color: #555555;
 }
-
+/*
 .project-card-container {
   background-color: var(--card-bg-color);
-  /* ... other styles */
 }
 
 .project-card-live-demo,
 .project-card-github-link {
   border: 2px solid var(--primary-color);
-  color: var(--primary-color);
-  /* ... other styles */
-}
+  color: var(--primary-color);}
 
 .project-card-live-demo:hover,
 .project-card-github-link:hover {
   background-color: var(--primary-color);
   color: var(--secondary-color);
-  /* ... other styles */
-}
+} */
