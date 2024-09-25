@@ -2,6 +2,7 @@ import React from "react";
 // import MyImg from "../../assests/resume-img.jpg";
 import resume from "./../../assests/document/saurav-resume.pdf";
 import "./Hero.css";
+import { HashLink } from "react-router-hash-link";
 import { Link } from "react-router-dom";
 
 function Hero() {
@@ -24,9 +25,9 @@ function Hero() {
         <a href={resume} download className="auth-btn" >
           Download Resume
         </a>
-        <Link to="/projects" className="auth-btn" >
+        <HashLink to="#projects" className="auth-btn" style={{backgroundColor : "#007bff"}} >
           View Projects
-        </Link>
+        </HashLink>
       </div>
       </div>
     </div>
