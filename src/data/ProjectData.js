@@ -9,7 +9,7 @@ const projectData = [
     title: "Dish Delight",
     image: dishDelight,
     description:
-      "A web application for a recipes makes simple and delesious recipes",
+      " for a recipes makes simple and delesious recipes",
     technologies: ["HTML", "CSS", "JavaScript", "React.js"],
     liveDemo: "https://dish-delight-recipe.netlify.app  ",
     github: "https://github.com/SauravShete2003/dish-delight",
@@ -18,7 +18,7 @@ const projectData = [
   {
     title: "Budget Buddy",
     image: budgetBuddy,
-    description: "A web application for budgeting and expense tracking",
+    description: "for budgeting and expense tracking",
     technologies: [
       "JavaScript",
       "React.js",
@@ -49,7 +49,7 @@ const projectData = [
   {
     title: "Score Keeper",
     image: scoreKeeper,
-    description: "A web application for keeping track of scores",
+    description: " for keeping track of scores",
     technologies: ["HTML", "CSS", "JavaScript", "React.js"],
     liveDemo: "score-keeper-beige.vercel.app",
     github: "https://github.com/SauravShete2003/score-keeper",
@@ -58,7 +58,7 @@ const projectData = [
   {
     title: "Quick Tick",
     image: quickTick,
-    description: "A web application for creating and managing to-do lists",
+    description: " creating and managing to-do lists",
     technologies: [
       "JavaScript",
       "React.js",

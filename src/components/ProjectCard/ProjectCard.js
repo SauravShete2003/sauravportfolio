@@ -14,7 +14,7 @@ function ProjectCard({
     <div className="project-card-container">
       <h2 className="project-card-title">{title}</h2>
       <img src={image} alt="Projectsimage" className="project-card-image" />
-      <p className="project-card-descritpion">{description}</p>
+      <p className="project-card-descritpion">{description} </p>
       <span className="project-card-technologies">{technologies}</span>
       <a
         href={liveDemo}

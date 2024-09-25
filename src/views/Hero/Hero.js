@@ -1,9 +1,7 @@
 import React from "react";
-// import MyImg from "../../assests/resume-img.jpg";
 import resume from "./../../assests/document/saurav-resume.pdf";
 import "./Hero.css";
 import { HashLink } from "react-router-hash-link";
-import { Link } from "react-router-dom";
 
 function Hero() {
   return (
