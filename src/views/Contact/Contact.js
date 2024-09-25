@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
 import "./Contact.css";
 import contact from "./contact-image.png";
+import Tooltip from "../../components/MediaLink/MediaLink";
 
 function Contact() {
   const [name, setName] = useState("");
@@ -60,6 +61,9 @@ function Contact() {
         <div>
           <img src={contact} className="contact-image" alt="" />
         </div>
+      </div>
+      <div className="tooltip">
+      <Tooltip/>
       </div>
       <Toaster />
     </div>

@@ -5,7 +5,6 @@
   justify-content: space-around;
   padding: 20px;
   margin-top: 10px;
-  background: linear-gradient(135deg, #e0e0e0, #ffffff);
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
 }
 
@@ -27,6 +26,7 @@
   padding: 15px 10px;
   border-radius: 12px;
   font-weight: 500;
+  background: linear-gradient(135deg, #e0e0e0, #ffffff);
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -93,6 +93,10 @@
   color: #004D40;
 }
 
+.tooltip{
+  padding: 20px 10px;
+  margin: 10px 5px;
+}
 @media screen and (max-width: 500px) {
   .contact-container {
     width: 97%;

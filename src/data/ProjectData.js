@@ -3,7 +3,6 @@ import dishDelight from "./../assests/images/dish-delight.png";
 import budgetBuddy from "./../assests/images/budget-buddy.png";
 import scoreKeeper from "./../assests/images/score-keeper.png"
 import quickTick from './../assests/images/quick-tick.png'
-
 const projectData = [
   {
     title: "Dish Delight",
@@ -13,7 +12,7 @@ const projectData = [
     technologies: ["HTML", "CSS", "JavaScript", "React.js"],
     liveDemo: "https://dish-delight-recipe.netlify.app  ",
     github: "https://github.com/SauravShete2003/dish-delight",
-    date: "June 2024",
+    date: "June 2024"
   },
   {
     title: "Budget Buddy",
@@ -27,7 +26,7 @@ const projectData = [
     ],
     liveDemo: "https://budget-buddy-sooty.vercel.app/",
     github: "https://github.com/SauravShete2003/BudgetBuddy",
-    date: "June 2024",
+    date: "July 2024",
   },
   {
     title: "Tiny URL",
@@ -41,7 +40,7 @@ const projectData = [
     ],
     liveDemo: "https://tinyshorter.netlify.app",
     github: "https://github.com/SauravShete2003/tinyurl",
-    date: "June 2024",
+    date: "August 2024",
   },
 
   {
