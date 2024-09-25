@@ -11,17 +11,21 @@ function Contact() {
   const contactHandle = () => {
     if (name && email && message) {
       toast.success("Message Sent Successfully");
-      localStorage.setItem("useremail", email);
+      localStorage.setItem(
+        "contact",
+        JSON.stringify({ name, email, message })
+        
+      );
       setEmail("");
       setName("");
       setMessage("");
     } else {
-      toast.error("Please Fill All The Fields");
+      toast.error("Please fill all the fields");
     }
   };
 
   return (
-    <div className="">
+    <div id="contact">
       <h1 className="contact-heading">Contact</h1>
       <h2 className="auth-description contact-description">
         Feel free to reach out by submitting the form below ✍️,

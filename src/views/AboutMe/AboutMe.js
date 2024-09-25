@@ -1,7 +1,7 @@
 
 function AboutMe() {
   return (
-    <div className="about-container">
+    <div className="about-container" id="about">
       <h1 className="auth-heading">
         <b>About Me</b>
       </h1>

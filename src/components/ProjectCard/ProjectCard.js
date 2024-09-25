@@ -10,7 +10,6 @@ function ProjectCard({
   image,
 }) {
 
-  console.log("this is the image.....", image)
   return (
     <div className="project-card-container">
       <h2 className="project-card-title">{title}</h2>

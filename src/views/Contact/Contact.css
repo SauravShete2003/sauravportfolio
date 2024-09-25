@@ -1,116 +1,138 @@
 .contact-container {
-  border-radius: 8px;
+  border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: #769ec9;
+  padding: 20px;
+  background: linear-gradient(135deg, #e0e0e0, #ffffff);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .contact-image {
-  width: 58%;
+  display: block;
+  text-align: center;
+  width: 60%;
+  margin-left:40px ;
+  transition: transform 0.3s;
+}
+
+.contact-image:hover {
+  transform: scale(1.05);
 }
 
 .auth-input-container {
-  width: 60%;
-  margin: 10px 20px;
-  padding: 10px 5px;
-  border-radius: 10px;
+  width: 55%;
+  margin: 15px 20px;
+  padding: 15px 10px;
+  border-radius: 12px;
   font-weight: 500;
+  background-color: #d1d0ce;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .input-box {
+  cursor: pointer;
   display: block;
-  width: 60%;
-  margin: 10px auto;
-  padding: 10px;
+  width: 70%;
+  margin: 12px auto;
+  padding: 12px;
   border: 2px solid #ccc;
-  border-radius: 4px;
-  transition: border-color 0.3s;
+  border-radius: 6px;
+  transition: border-color 0.3s, box-shadow 0.3s;
 }
 
 .textarea-box {
-  width: 60%;
-  height: 100px;
+  cursor: pointer;
+  width: 70%;
+  height: 120px;
   display: block;
-  margin: 10px auto;
-  padding: 10px;
+  margin: 12px auto;
+  padding: 12px;
   border: 2px solid #ccc;
-  border-radius: 4px;
-  transition: border-color 0.3s;
+  border-radius: 6px;
+  transition: border-color 0.3s, box-shadow 0.3s;
 }
 
 .textarea-box:focus,
 .input-box:focus {
   outline: none;
-  border: 2px solid #007bff;
+  border-color: #007bff;
+  box-shadow: 0px 0px 10px rgba(0, 123, 255, 0.2);
 }
-.textarea-box:focus,
-.input-box:focus {
-  border-color: #0056b3;
-}
+
 .contact-btn {
-  padding: 6px 30px;
-  border-radius: 6px;
+  padding: 10px 40px;
+  border-radius: 8px;
   display: block;
-  margin: 10px auto;
-  width: 55%;
-  color: black;
-  background-color: #07e2ff;
+  margin: 15px auto;
+  width: 60%;
+  background-color: #007bff;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
 }
-.contact-btn:hover{
+
+.contact-btn:hover {
   background-color: #0056b3;
+  box-shadow: 0px 4px 10px rgba(0, 123, 255, 0.4);
   color: white;
 }
 
-.contact-description{
-  font-size: 22px;
+.contact-description {
+  font-size: 24px;
   font-weight: 500;
+  color: #333;
+ text-align: center;
+ margin-bottom: 10px;
 }
 
-.contact-heading{
-  font-size: 36px;
+.contact-heading {
+  font-size: 40px;
+  color: #004D40;
 }
 
-@media screen  and (max-width : 500px){
+@media screen and (max-width: 500px) {
   .contact-container {
     width: 97%;
     display: block;
   }
   
   .contact-image {
-    width: 60%;
+    width: 80%;
     display: block;
-    margin: 10px auto;
+    margin: 15px auto;
   }
   
   .auth-input-container {
-    font-size: 15px;
-    background-color: #0056b3;
-    margin: 10px 15px;
-    padding: 6px 15px;
+    width: 90%;
+    font-size: 14px;
+    margin: 15px auto;
+    padding: 10px 15px;
     border-radius: 10px;
   }
   
   .input-box {
     width: 100%;
-    padding: 9px;
+    padding: 10px;
   }
   
   .textarea-box {
     width: 100%;
+    height: 100px;
   }
   
   .contact-btn {
-    width: 100%;
-    padding: 6px 0;
-    border-radius: 8px;
-    display: block;
-    margin: 10px auto;
+    width: 90%;
+    padding: 10px 0;
   }
-  .auth-sub-heading{
-    font-size: 19px;
+
+  .contact-heading {
+    font-size: 28px;
   }
-  .contact-heading{
+
+  .contact-description {
     font-size: 20px;
   }
 }

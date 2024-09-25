@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom";
 import { useState } from "react";
 import menuIcon from './menu.png';
+import { HashLink } from "react-router-hash-link";
 
 function Navbar() {
   const [isMenu, setIsMenu] = useState(false);
@@ -30,46 +30,50 @@ function Navbar() {
       <div className={`w-full md:block md:w-auto ${isMenu ? "" : "hidden"}`}>
         <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-400 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 cursor-pointer text-lg">
           <li>
-            <Link
-              to={"/"}
+            <HashLink
+              to={"#"}
+              smooth
               className="block py-1 px-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:py-1 dark:text-white md:dark:text-blue-600"
               aria-current="page"
               onClick={handleMenu}>
               Home
-            </Link>
+            </HashLink>
           </li>
           <li>
-            <Link
-              to={"/about"}
+            <HashLink
+              to={"#about"}
               className="block py-1 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:py-1 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               onClick={handleMenu}
             >
               About
-            </Link>
+            </HashLink>
           </li>
           <li>
-            <Link
-              to={"/projects"}
+            <HashLink
+              to="#projects" smooth
+            
               className="block py-1 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:py-1 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               onClick={handleMenu}>
               Projects
-            </Link>
+            </HashLink>
             </li>
             <li>
-            <Link
-              to={"/skill"}
+            <HashLink
+              to="#skill"
+              smooth
               className="block py-1 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:py-1 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               onClick={handleMenu}>
               Skills
-            </Link>
+            </HashLink>
             </li>
             <li>
-            <Link
-              to={"/contact"}
+            <HashLink
+              to="#contact"
+              smooth
               className="block py-1 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:py-1 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               onClick={handleMenu}>
               Contact
-            </Link>
+            </HashLink>
             </li>
           </ul>
         </div>

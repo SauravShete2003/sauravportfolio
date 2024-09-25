@@ -41,8 +41,8 @@
     justify-content: center;
     flex-wrap: wrap;
     padding: 15px;
-    margin: 12px 20px;
-    background-color: #03a0d4; 
+    margin: 8px 20px;
+    background-color: #027196; 
     border: 1px solid #ddd;
     border-radius: 8px;
     transition: transform 0.2s ease-in-out;

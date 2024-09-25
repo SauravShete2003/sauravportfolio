@@ -94,7 +94,7 @@ function SkillSection() {
   
   return (
     <div>
-      <h1 className="auth-heading">
+      <h1 className="auth-heading" id='skill'>
         <b>Skills Section</b>
       </h1>
       <div className="auth-skills">

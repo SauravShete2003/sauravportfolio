@@ -3,8 +3,8 @@ import ProjectData from "../../data/ProjectData";
 import ProjectCard from './../../components/ProjectCard/ProjectCard'
 function Projects() {
   return (
-    <div>
-      <h1 className="">Projects</h1>
+    <div id="projects">
+      <h1 style={{color : "#004D40" , fontWeight : "500"}}>Projects</h1>
       <div className="project-conatiner">
         {ProjectData.map((project, index) => {
           const { title, description, technologies, liveDemo, github, date , image} =
