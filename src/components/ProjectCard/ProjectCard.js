@@ -15,7 +15,8 @@ function ProjectCard({
       <h2 className="project-card-title">{title}</h2>
       <img src={image} alt="Projectsimage" className="project-card-image" />
       <p className="project-card-descritpion">{description} </p>
-      <span className="project-card-technologies">{technologies}</span>
+      <span className="project-card-technologies">{
+      technologies.join()}</span>
       <a
         href={liveDemo}
         className="project-card-live-demo"

@@ -44,9 +44,10 @@
     margin-bottom: 15px;
   }
   
-  .project-card-technologies span {
+  .project-card-technologies {
     padding: 6px 12px;
     border-radius: 20px;
+    width: 100%;
     font-size: 14px;
     font-weight: 500;
     background-color: #f1f1f1; 
@@ -81,12 +82,11 @@
     position: absolute;
     top: 15px;
     right: 15px;
-    background-color: #fff;
+    background-color: #1baada;
     padding: 6px 12px;
     border-radius: 5px;
     font-size: 14px;
     font-weight: 500;
-    color: #333;
   }
   
   
@@ -108,6 +108,7 @@
     .project-card-technologies span {
       font-size: 12px;
       padding: 4px 8px;
+      width: 100%;
     }
   
     .project-card-live-demo,
