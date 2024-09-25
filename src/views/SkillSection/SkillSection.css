@@ -1,84 +1,146 @@
 .auth-heading {
-    font-size: 1.9rem;
-    margin: 10px;
-    color: #004D40; 
+  font-size: 1.9rem;
+  margin: 10px;
+  color: #004d40;
 }
 
 .about-container {
-    background-color: #B2EBF2; 
-    width: 90%;
-    margin: 20px auto;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease-in-out;
+  background-color: #b2ebf2;
+  width: 90%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
 }
-.about-container:hover{
-    transform: scale(1.03);
+.about-container:hover {
+  transform: scale(1.03);
 }
 
 .auth-skills {
-    border-radius: 8px;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    padding: 20px;
-    gap: 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 20px;
 }
 
 .auth-skill-type {
-    font-size: 24px;
-    color: #004D40; 
-    font-weight: bold;
-    margin: 5px;
-    text-align: center;
+  font-size: 24px;
+  color: #004d40;
+  font-weight: bold;
+  margin: 5px;
+  text-align: center;
 }
 
 .auth-skill-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 15px;
-    margin: 8px 20px;
-    background-color: #1baada; 
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    transition: transform 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 15px;
+  margin: 8px 20px;
+  background-color: #1baada;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out;
 }
 
 .auth-skill-container:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .skill-logo {
-    width: 60px;
-    margin: 10px 15px;
+  width: 60px;
+  margin: 10px 15px;
 }
 
 .category-container {
-    margin: 8px 15px;
-    height: 135px;
-    width: 110px;
-    text-align: center;
-    background-color: #FFFFFF; 
-    padding: 10px;
-    border-radius: 10px;
-    border: 1px solid #eee;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-    transition: transform 0.2s ease-in-out;
+  margin: 8px 15px;
+  height: 135px;
+  width: 110px;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease-in-out;
 }
-.category-container:hover{
-    transform: scale(1.05)
+.category-container:hover {
+  transform: scale(1.05);
 }
-
 
 .soft-skill-container {
-    height: 160px;
-    width: 125px;
+  height: 160px;
+  width: 125px;
 }
 
 .soft-skill-img {
-    width: 80px;
+  width: 80px;
+}
+
+@media screen and (max-width: 500px) {
+  .auth-heading {
+    font-size: 1.5rem;
+    margin: 5px;
+  }
+
+  .about-container {
+    width: 100%;
+    margin: 15px auto;
+    padding: 15px;
+  }
+  .about-container:hover {
+    transform: scale(1.01);
+  }
+
+  .auth-skills {
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .auth-skill-type {
+    font-size: 22px;
+  }
+
+  .auth-skill-container {
+    padding: 10px;
+    margin: 8px 10px;
+  }
+
+  .auth-skill-container:hover {
+    transform: scale(1.02);
+  }
+
+  .skill-logo {
+    width: 50px;
+    margin: 8px 15px;
+  }
+
+  .category-container {
+    font-size: 15px;
+    margin: 10px 9px;
+    height: 120px;
+    width: 100px;
+    padding: 10px;
+  }
+  .category-container:hover {
+    transform: scale(1.03);
+  }
+
+  .soft-skill-container {
+    font-size: 14px;
+    height: 140px;
+    width: 113px;
+    margin: 8px 5px;
+  }
+
+  .soft-skill-img {
+    width: 70px;
+    border-radius: 8px;
+    margin: 5px 12px;
+  }
 }
