@@ -7,3 +7,8 @@
     border-radius: 8px;
     background-color: #B2EBF2; 
 }
+@media screen and (max-width : 500px){
+    .project-conatiner{
+        background-color: #E0F7FA; 
+    }
+}
