@@ -70,21 +70,6 @@ const projectData = [
     github: "https://github.com/SauravShete2003/quick-tick",
     date: "September 2024",
   },
-  {
-    title: "Tiny URL",
-    image: quickTick,
-    description: "A web application for shortening URLs",
-    technologies: [
-      "JavaScript",
-      "React.js",
-      "MongoDB",
-      "Node.js",
-      "Express.js",
-    ],
-    liveDemo: "https://tinyshorter.netlify.app",
-    github: "https://github.com/SauravShete2003/tinyurl",
-    date: "June 2024",
-  },
 ];
 
 export default projectData;
