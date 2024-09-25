@@ -4,6 +4,7 @@ import Hero from "../Hero/Hero";
 import AboutMe from "../AboutMe/AboutMe";
 import SkillSection from "../SkillSection/SkillSection";
 import Projects from "./../../views/Projects/Projects";
+import Contact from "../Contact/Contact";
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <AboutMe />
       <SkillSection />
       <Projects />
+      <Contact/>
     </div>
   );
 }

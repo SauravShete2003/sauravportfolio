@@ -11,14 +11,11 @@ function Hero() {
 
       <div className="description-container">
         <h1 className="auth-heading">
-          <b>Hey...!! </b> <br />
+          <b>Hey...👋🏻 </b> <br />
           <b>I`m Saurav Shete</b>
         </h1>
         <p className="auth-description">
-          Creative Coder with a Flair for Modern Web Development,
-          <br />
-          Innovating with the Latest Technologies and Designing Elegant
-          Solutions.
+        Creative Coder with a Flair for Modern Web Development 💻🎨, Innovating with the Latest Technologies 🚀 and Designing Elegant Solutions ✨.
         </p>
       </div>
 

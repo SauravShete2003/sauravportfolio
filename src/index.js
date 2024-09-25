@@ -7,6 +7,7 @@ import Navbar from './components/Navbar/Navbar';
 import AboutMe from './views/AboutMe/AboutMe';
 import SkillSection from './views/SkillSection/SkillSection';
 import Projects from './views/Projects/Projects';
+import Contact from './views/Contact/Contact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
   {
     path : '/projects',
     element : <Projects/>
+  },
+  {
+    path : '/contact',
+    element : <Contact/>
   }
 ])
 
