@@ -1,0 +1,32 @@
+.footer{
+    background-color: rgb(49, 199, 237);
+    padding: 10px;
+    height: 110px;
+    margin: 10px 5px;
+    border-radius: 6px;
+}
+.toolTip {
+    transform: "translate(-50%, -50%)";
+    margin-top: 10px;
+  }
+  .copy-right{
+    display: block;
+    text-align: center;
+}
+
+@media screen and (max-width : 500px) {
+    .footer{
+        background-color: rgb(49, 199, 237);
+        padding: 10px;
+        height: 110px;
+        margin: 10px 5px;
+        border-radius: 6px;
+    }
+    .toolTip {
+        margin-top: 5px;
+      }
+      .copy-right{
+        display: block;
+        text-align: center;
+    }
+}

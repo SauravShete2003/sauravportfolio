@@ -93,10 +93,6 @@
   color: #004D40;
 }
 
-.tooltip{
-  padding: 20px 10px;
-  margin: 10px 5px;
-}
 @media screen and (max-width: 500px) {
   .contact-container {
     width: 97%;

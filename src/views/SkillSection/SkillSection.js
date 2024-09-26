@@ -11,6 +11,8 @@ import bootstrapImg from './../../assests/Skills/bootstrap.png';
 import githubImg from './../../assests/Skills/github.png';
 import vercelImg from './../../assests/Skills/Vercel';
 import problemSolving from './../../assests/Skills/Problem-solving.png'
+import tailwindCss from './../../assests/Skills/tailwind-css.png'
+import redis from "./../../assests/Skills/redis"
 
 function SkillSection() {
   const frontendSkills = [
@@ -19,6 +21,7 @@ function SkillSection() {
     { img: cssImg, name: 'CSS' },
     { img: jsImg, name: 'JavaScript' },
     { img: bootstrapImg, name: 'Bootstrap' },
+    { img: tailwindCss, name: 'Tailwind CSS' },
   ];
 
   const backendSkills = [
@@ -33,6 +36,7 @@ function SkillSection() {
       img: 'https://seeklogo.com/images/J/json-web-tokens-jwt-io-logo-C003DEC47A-seeklogo.com.png', 
       name: 'JWT Token' 
     },
+    { img: redis, name: 'Redis' },
   ];
 
   const tools = [
