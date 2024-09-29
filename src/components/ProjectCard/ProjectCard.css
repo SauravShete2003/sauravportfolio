@@ -1,113 +1,151 @@
 .project-card-container {
-    padding: 20px;
-    width: 100%;
-    height: 500px;
-    max-width: 370px;
-    border-radius: 12px;
-    margin: 15px;
-    position: relative;
-    background: linear-gradient(135deg, #f5f5f5, #ffffff);
-    border: 1px solid #e0e0e0; 
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
-    font-weight: 500; 
-  }
-  .project-card-container:hover{
-      transform: translateY(-5px);
-      box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
-  }
-  .project-card-image {
-    width: 100%;
-    height: 180px;
-    border-radius: 5px;
-    transition: transform 0.3s ease;
-  }
-  
-  .project-card-image:hover {
-    transform: scale(1.05); 
-  }
-  
-  .project-card-descritpion {
-    font-size: 18px; 
-    padding: 2px 15px;
-    border-radius: 8px;
-    margin: 2px auto;
-    text-align: center;
-    color: #666;
-  }
-  
-  .project-card-technologies {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin-bottom: 15px;
-  }
-  
-  .project-card-technologies {
-    padding: 6px 12px;
-    border-radius: 20px;
-    width: 100%;
-    font-size: 14px;
-    font-weight: 500;
-    background-color: #f1f1f1; 
-    color: #333; 
-  }
-  .auth-links{
-    display: block;
+  padding: 20px;
+  width: 100%;
+  height: 480px;
+  max-width: 370px;
+  border-radius: 12px;
+  margin: 15px;
+  position: relative;
+  background: linear-gradient(135deg, #a1c4fd, #c2e9fb); 
+  border: 1px solid #e0e0e0; 
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
 
-  }
-  .auth-links-github{
-    padding: 10px 0;
-    margin: 10px;
-  }
-  .project-card-date {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    background-color: #1baada;
-    padding: 6px 11px;
-    border-radius: 5px;
-    font-size: 14px;
-    font-weight: 500;
-  }
-  
-  
-  @media (max-width: 500px) {
-    .project-card-container {
+.project-card-container:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.project-card-image {
+  width: 100%;
+  height: 180px;
+  border-radius: 10px; 
+  transition: transform 0.3s ease;
+}
+
+.project-card-image:hover {
+  transform: scale(1.04); 
+}
+
+.project-card-descritpion {
+  font-size: 18px; 
+  padding: 2px 15px;
+  border-radius: 8px;
+  margin: 10px auto;
+  text-align: center;
+  color: #444;
+}
+
+.project-card-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  gap: 10px; 
+  padding: 15px 0; 
+}
+
+
+.project-card-technologies {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 15px;
+  padding: 6px 12px;
+  border-radius: 20px;
+  background-color: #e5f3ff;
+  color: #333; 
+}
+
+.project-card-date {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: #0078d7;
+  color: white;
+  padding: 6px 11px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.auth-links,
+.auth-links-github {
+  display: block;
+  width: 130%;
+  padding: 8px 15px;
+  background-color: #0078d7; 
+  color: white; 
+  text-decoration: none; 
+  border-radius: 8px;
+  font-size: 15px; 
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.auth-links:hover,
+.auth-links-github:hover {
+  background-color: #005bb5; 
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); 
+}
+
+.auth-link-img {
+  display: block;
+  margin: 2px auto;
+  width: 20px; 
+  text-align: center;
+}
+.auth-link-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 500px) {
+  .project-card-container {
       max-width: 95%;
-      height: 500px;
+      height: auto;
       margin: 10px auto;
-    }
-  
-    .project-card-image {
+  }
+
+  .project-card-image {
       height: 150px;
-    }
-  
-    .project-card-description {
-      font-size: 15px;
-    }
-  
-    .project-card-technologies span {
+  }
+
+  .project-card-description {
+      font-size: 16px;
+  }
+
+  .project-card-technologies span {
       font-size: 12px;
       padding: 4px 8px;
       width: 100%;
-    }
-  
-    .project-card-live-demo,
-    .project-card-github-link {
+  }
+
+  .project-card-live-demo,
+  .project-card-github-link {
       width: 100% ;
       margin: 5px auto;
       text-align: center;
       font-size: 13px;
-      padding: 9px 0;
+      padding: 6px 0;
+  }
 
-    }
-  
-    .project-card-date {
+  .project-card-date {
       font-size: 12px;
       padding: 4px 8px;
-    }
   }
-  
-  
+  .auth-links,
+  .auth-links-github {
+    font-size: 14px; 
+    padding: 5px 10px; 
+  }
+  .auth-link-container{
+   display: block;
+   text-align: center;
+
+  }
+}
