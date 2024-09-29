@@ -48,10 +48,6 @@
   transition: transform 0.2s ease-in-out;
 }
 
-.auth-skill-container:hover {
-  transform: scale(1.05);
-}
-
 .skill-logo {
   width: 60px;
   margin: 10px 15px;
@@ -68,18 +64,6 @@
   border: 1px solid #eee;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   transition: transform 0.2s ease-in-out;
-}
-.category-container:hover {
-  transform: scale(1.05);
-}
-
-.soft-skill-container {
-  height: 160px;
-  width: 125px;
-}
-
-.soft-skill-img {
-  width: 80px;
 }
 
 @media screen and (max-width: 500px) {
@@ -111,9 +95,6 @@
     margin: 8px 10px;
   }
 
-  .auth-skill-container:hover {
-    transform: scale(1.02);
-  }
 
   .skill-logo {
     width: 50px;
@@ -129,18 +110,5 @@
   }
   .category-container:hover {
     transform: scale(1.03);
-  }
-
-  .soft-skill-container {
-    font-size: 14px;
-    height: 140px;
-    width: 113px;
-    margin: 8px 5px;
-  }
-
-  .soft-skill-img {
-    width: 70px;
-    border-radius: 8px;
-    margin: 5px 12px;
   }
 }

@@ -10,7 +10,6 @@ import mongoImg from './../../assests/Skills/MongoDB.png';
 import bootstrapImg from './../../assests/Skills/bootstrap.png';
 import githubImg from './../../assests/Skills/github.png';
 import vercelImg from './../../assests/Skills/Vercel';
-import problemSolving from './../../assests/Skills/Problem-solving.png'
 import tailwindCss from './../../assests/Skills/tailwind-css.png'
 import redis from "./../../assests/Skills/redis"
 
@@ -56,40 +55,17 @@ function SkillSection() {
     { img: vercelImg, name: 'Vercel' },
   ];
 
-  const softSkills = [
-    { img: problemSolving, name: 'Problem Solving' },
-    { 
-      img: 'https://img.freepik.com/free-vector/team-work-background-flat-style_23-2147776186.jpg', 
-      name: 'Teamwork' 
-    },
-    { 
-      img: 'https://img.freepik.com/free-vector/social-network-pixel-style-illustration_23-2147493464.jpg', 
-      name: 'Communication' 
-    },
-  ];
 
   const renderSkills = (skills) => (
     skills.map((skill, index) => (
       <div
         key={index}
-        className={`category-container ${
-          skill.name === 'Problem Solving' ||
-          skill.name === 'Teamwork' ||
-          skill.name === 'Communication'
-            ? 'soft-skill-container'
-            : ''
-        }`}
+        className="category-container"
       >
         <img
           src={skill.img}
           alt={`${skill.name} logo`}
-          className={`skill-logo ${
-            skill.name === 'Problem Solving' ||
-            skill.name === 'Teamwork' ||
-            skill.name === 'Communication'
-              ? 'soft-skill-img'
-              : ''
-          }`}
+          className= "skill-logo"
         />
         <span>{skill.name}</span>
       </div>
@@ -118,12 +94,6 @@ function SkillSection() {
           <h2 className="auth-skill-type">Tools</h2>
           <div className="auth-skill-container">
             {renderSkills(tools)}
-          </div>
-        </div>
-        <div>
-          <h2 className="auth-skill-type">Soft Skills</h2>
-          <div className="auth-skill-container">
-            {renderSkills(softSkills)}
           </div>
         </div>
       </div>

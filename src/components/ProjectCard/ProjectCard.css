@@ -53,31 +53,14 @@
     background-color: #f1f1f1; 
     color: #333; 
   }
-  
-  .project-card-live-demo,
-  .project-card-github-link {
-    display: inline-block;
-    width: 340px ;
-    text-decoration: none;
-    padding: 10px 8px;
-    margin: 5px;
-    margin-left: -5px;
-    border-radius: 5px;
-    font-size: 14px;
-    cursor: pointer;
-    background-color: #007bff;
-    color: white;
+  .auth-links{
+    display: block;
+
   }
-  
-  .project-card-github-link {
-    background-color: #343a40;
+  .auth-links-github{
+    padding: 10px 0;
+    margin: 10px;
   }
-  
-  .project-card-live-demo:hover,
-  .project-card-github-link:hover {
-    opacity: 0.85; 
-  }
-  
   .project-card-date {
     position: absolute;
     top: 15px;

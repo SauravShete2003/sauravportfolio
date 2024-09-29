@@ -19,18 +19,16 @@ function ProjectCard({
       technologies.join()}</span>
       <a
         href={liveDemo}
-        className="project-card-live-demo"
+        className="auth-links"
         target="_blank"
-        rel="noopener noreferrer"
-      >
+        rel="noopener noreferrer">
         Live Demo : {liveDemo}
       </a>
       <a
         href={liveDemo}
-        className="project-card-github-link"
+        className="auth-links-github"
         target="_blank"
-        rel="noopener noreferrer"
-      >
+        rel="noopener noreferrer">
         GitHub Link : {github}
       </a>
       <span className="project-card-date">{date}</span>
