@@ -15,7 +15,7 @@ function Hero() {
           <b>I`m Saurav Shete</b>
         </h1>
         <p className="auth-description">
-        Creative Coder with a Flair for Modern Web Development 💻🎨, Innovating with the Latest Technologies 🚀 and Designing Elegant Solutions ✨.
+        Creative Coder with a Flair for Modern Web Development 💻🎨, Innovating with the Latest Technologies 🚀 and Designing Elegant Solutions ✨. Now learning Android development to expand my skills in mobile app creation 📱.
         </p>
       </div>
 

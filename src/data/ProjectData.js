@@ -48,7 +48,7 @@ const projectData = [
     image: scoreKeeper,
     description: " for keeping track of scores",
     technologies: ["HTML", "CSS", "JavaScript", "React.js"],
-    liveDemo: "score-keeper-beige.vercel.app",
+    liveDemo: "https://score-keeper-beige.vercel.app/",
     github: "https://github.com/SauravShete2003/score-keeper",
     date: "September 2024",
   },
@@ -62,7 +62,7 @@ const projectData = [
       "MongoDB",
       "Node.js"
     ],
-    liveDemo: "quick-tick.netlify.app",
+    liveDemo: "https://quick-tick.netlify.app/",
     github: "https://github.com/SauravShete2003/quick-tick",
     date: "September 2024",
   },

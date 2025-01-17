@@ -8,14 +8,11 @@ function Contact() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
+
   const contactHandle = () => {
     if (name && email && message) {
       toast.success("Message Sent Successfully");
-      localStorage.setItem(
-        "contact",
-        JSON.stringify({ name, email, message })
-        
-      );
+      localStorage.setItem( "contact", JSON.stringify({ name, email, message }));
       setEmail("");
       setName("");
       setMessage("");
@@ -23,6 +20,7 @@ function Contact() {
       toast.error("Please fill all the fields");
     }
   };
+  
 
   return (
     <div id="contact">
