@@ -66,6 +66,20 @@ const projectData = [
     github: "https://github.com/SauravShete2003/quick-tick",
     date: "September 2024",
   },
+  {
+    title: "Taskly",
+    image: tinyUrlImage,
+    description: "Project Management application for creating and managing tasks",
+    technologies: [
+      "JavaScript",
+      "React.js",
+      "MongoDB",
+      "Node.js",
+    ],
+    liveDemo: "https://taskly-1-zj3w.onrender.com/",
+    github: "https://github.com/SauravShete2003/Taskly",
+    date: "August 2025",
+  },
 ];
 
 export default projectData;

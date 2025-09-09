@@ -1,0 +1,15 @@
+{
+  "short_name": "Saurav Portfolio",
+  "name": "Saurav Portfolio",
+  "icons": [
+    {
+      "src": "https://img.freepik.com/premium-photo/man-with-shirt-that-says-he-is-real-man_1057389-84799.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
